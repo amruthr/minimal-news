@@ -3,9 +3,8 @@ import React, { Component , useState, useEffect }  from 'react';
 import { Link } from 'react-router-dom';
 import { isBrowser, isMobile } from "react-device-detect";
 import axios from 'axios'
-import LoadingGif from './Loading-gif';
-import ButtonLinkGenderPage from './Button-link-gender-page'
-import { connect } from 'react-redux';
+/* import LoadingGif from './Loading-gif'; */
+
 import Stories   from 'react-insta-stories';
 import moment from 'moment';
 import { 

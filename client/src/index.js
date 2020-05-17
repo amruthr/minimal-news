@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom'
-import { Provider } from 'react-redux'
+/* import { Provider } from 'react-redux' */
 import Router from './Router';
-import { Store } from './storeConfig'
+/* import { Store } from './storeConfig' */
 
 
 if ("serviceWorker" in navigator) {
@@ -18,10 +18,10 @@ if ("serviceWorker" in navigator) {
 }
 
 ReactDOM.render(
-  <Provider store={Store}>
+  /* <Provider store={Store}> */
     <BrowserRouter>
       <Router />
     </BrowserRouter>
-  </Provider>
+  /* </Provider> */
 
 , document.getElementById('root'));
