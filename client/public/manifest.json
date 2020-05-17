@@ -1,2 +1,21 @@
-
-  {"gcm_sender_id": "863462935795"}
+{
+  "short_name": "Tikan.ga",
+  "name": "Tikanga",
+  "icons": [
+    {
+      "src": "./images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "homepage": "http://news.tikan.ga", 
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000",
+  "background_color": "#fff"
+}
