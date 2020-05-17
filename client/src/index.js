@@ -6,7 +6,7 @@ import Router from './Router';
 /* import { Store } from './storeConfig' */
 
 
-if ("serviceWorker" in navigator) {
+/* if ("serviceWorker" in navigator) {
   navigator.serviceWorker
     .register("./firebase-messaging-sw.js")
     .then(function(registration) {
@@ -16,7 +16,7 @@ if ("serviceWorker" in navigator) {
       console.log("Service worker registration failed, error:", err);
     });
 }
-
+ */
 ReactDOM.render(
   /* <Provider store={Store}> */
     <BrowserRouter>
